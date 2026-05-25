@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Perpustakaan Ilmu Pribadi</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body data-page="index">
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html" data-site-title>Perpustakaan Ilmu</a>
+      <nav class="nav">
+        <a href="index.html">Catatan</a>
+        <a href="kategori.html">Kategori</a>
+        <a href="tokoh.html">Tokoh</a>
+        <a href="keuangan.html">Keuangan</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <h1 class="page-title">Catatan</h1>
+      <p class="page-sub">Perpustakaan ilmu, ringkasan, dan refleksi pribadi. <span id="count" class="count"></span></p>
+
+      <div class="toolbar">
+        <input id="search" type="search" placeholder="Cari judul, tag, tokoh, atau topik..." autocomplete="off" />
+        <div id="filters" class="filters"></div>
+      </div>
+
+      <div id="note-list"></div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span data-year></span> &middot; <span data-site-title>Perpustakaan Ilmu</span> &middot; Dibangun dengan HTML, CSS &amp; JS sederhana.</p>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
